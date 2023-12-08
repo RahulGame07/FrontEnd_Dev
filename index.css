@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding:0px
+}
+#container{
+    border: 1px solid black;
+    height:600px;
+    width:600px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width:100px;
+    margin:5px
+}
+header{
+    text-align: center;
+}
+#box1{background-color: aqua;}
+#box2{background-color: brown;}
+#box3{background-color:darkorange}
+#box4{background-color:yellow}
